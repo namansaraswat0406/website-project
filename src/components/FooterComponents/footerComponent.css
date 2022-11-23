@@ -1,0 +1,114 @@
+.styleFooter{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    padding: 60px;
+    box-shadow:  0 0 10px #000000;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.footerForm{
+    padding: 15px;
+    
+}
+.footerContact h1{
+    /* padding: 10px; */
+    color: khaki;
+    
+}
+.footerContact{
+    color: white;
+}
+.socialMedia{
+    /* padding: 10px; */
+    color: white;
+    
+}
+.socialMedia h1{
+    font-size: 20px;
+}
+.pacestyle{
+    /* border-radius: 10px; */
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.subBtn{
+    border: none;
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+.about{
+    color: white;
+    font-size: 15px;
+}
+.about h1{
+    font-size: 20px;
+    color: khaki;
+}
+.footerFormHead{
+    color: khaki;
+    font-size: 20px;
+}
+.socPic{
+    height: 70px;
+        width:70px;
+        padding: 10px;
+}
+.contactDetails h1{
+    font-size: 20px;
+}
+hr{
+ color: white;
+}
+@media (min-width:320px) and (max-width:768px){
+    .styleFooter{
+        display: block;
+        /* justify-content:space-between; */
+        width: 100%;
+        margin: auto;
+        bottom: 0;
+        padding: 15%;
+        height: 100vh;
+        
+    } 
+    .footerForm{
+        padding: 10px;
+        
+    }
+    .footerContact{
+        padding: 10px;
+        
+    }
+    .socialMedia{
+        padding: 0px;
+    }
+    .footerFormHead{
+        color: khaki;
+        
+    }
+    .socPic{
+        height: 70px;
+        width:70px;
+        padding: 10px;
+    }
+    .about{
+        padding-bottom: 10%;
+        
+    }
+    .contactDetails h1{
+        font-size: 20px;
+        padding-top: 10%;
+    }
+    .socialMedia{
+        padding-top: 10%;
+    }
+ hr{
+    color: whitesmoke;
+    
+ }   
+}

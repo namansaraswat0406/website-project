@@ -1,0 +1,27 @@
+
+.helements{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cardImg{
+    height:150px;
+}
+
+
+@media (min-width:320px) and (max-width:1024px){
+.carouselStyle img{
+    height: 350px!important;
+    /* background-size: cover!important; */
+}
+.helements{
+    display: block;
+    justify-content: center;
+}
+.card1{
+    margin: auto;
+    margin-top: 20px;
+}
+
+}
